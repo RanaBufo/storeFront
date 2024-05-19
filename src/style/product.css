@@ -1,0 +1,53 @@
+.card{
+    width: 500px;
+    background: #F2E8E2;
+    color: #AA9F3D;
+    font-size: 20pt;
+    padding: 20px;
+    margin-top: 10px !important;    
+    margin-left: 10px !important;
+    max-height: 1300px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+img{
+    width: 300px;
+    max-height: 500px;
+    margin-left: 90px;
+}
+.row{
+    display: flex;flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+    margin-left: 75px;
+}
+
+.descriptionStyle{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+button{
+    width: 70px;
+    padding: 10px;
+    border: none;
+    background:#AA9F3D;
+    font-size: 18pt;
+    color: #F2E8E2;
+}
+
+button:hover{
+    background: #F2E8E2;
+    color: #AA9F3D;
+    border-style: solid;
+    border-color: #AA9F3D;
+    border-width: 2px;
+    padding: 8px;
+}
+
+.returnButton{
+    width: 100px;
+}
